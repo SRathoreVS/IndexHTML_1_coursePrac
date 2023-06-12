@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: rgb(41, 190, 41);
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+h2 {
+  color: salmon;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+p {
+  color: darkgoldenrod;
+  font-size: 28px;
+  line-height: 1.5;
+}
+h3 {
+  color: rgba(62, 108, 193, 0.601);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+li {
+  color: red;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.2;
+}
+/*footer p {
+  font-size: 15px;
+}
+article header p { 
+  font-style: italic;
+} */
+#abcd {
+  font-style: italic;
+  font-size: 18px;
+}
+#xyz {
+  font-size: 14px;
+  font-style: italic;
+}
+.relatedposts-author{
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  color:darkred;
+  font-weight: bold;
+}
+/* ul{ 
+  list-style: none;
+}*/
+.related-lists {
+  list-style: none;
+}
+.main-header{
+  background-color: rgba(140, 63, 229, 0.755);
+}
+aside{
+  background-color: #95b6f1;
+  border: 10px solid rgba(221, 64, 32, 0.755);
+}
+/*body{
+  background-color: darkseagreen;
+}*/
+/*.first-li{
+  font-weight: bold;
+  font-style: italic;
+}*/
+li:first-child
+{
+  font-weight: bold;
+}
+li:nth-child(3){
+  color: blue;
+}
+/* Missconception: this won't work its not the immediate C of P article */
+article p:first-child
+{
+  color: bisque;
+}
+/* Styling Hyperlinks  */
+a:link
+{
+  color: lightgreen;
+  text-decoration: none;
+}
+a:hover
+{
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline wavy orangered;
+}

@@ -9,6 +9,7 @@
   color: #434978;
   margin: 0;
   padding: 0;
+  background-color: rgba(225, 225, 225, 0.45);
 }
 /* This is the Inheriting properties
    for those which we didnt assigned any properties */
@@ -27,10 +28,15 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 50px ;
+  height: 80px;
 }
 
 .post-header {
   margin-bottom: 40px;
+}
+.post-img {
+  width: 800px;
+  height: auto;
 }
 aside{
   background-color: #95b6f1;
@@ -38,6 +44,7 @@ aside{
   /* padding-top: 50px;
   padding-bottom: 50px; */
   padding: 50px 0;
+  width: 500px;
 }
 
 

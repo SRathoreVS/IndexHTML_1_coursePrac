@@ -3,18 +3,45 @@
    But the Unoversal selector is having the 
    lowest priority.
    so the wait will be ;long as it will be selected at last  */
-/* * { 
+* { 
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   color: #434978;
-}*/
+  margin: 0;
+  padding: 0;
+}
 /* This is the Inheriting properties
    for those which we didnt assigned any properties */
 body {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: #434678;
+  
 }
+
+
+.main-header{
+  background-color: rgba(217, 215, 122, 0.755);
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 50px ;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+aside{
+  background-color: #95b6f1;
+  border: 10px solid rgba(221, 64, 32, 0.755);
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+}
+
+
+
 
 h1,
 h2,
@@ -30,6 +57,7 @@ h1 {
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
+  margin-bottom: 30px;
 }
 h2 {
   color: salmon;
@@ -37,11 +65,22 @@ h2 {
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
 }
 p {
   color: darkgoldenrod;
   font-size: 28px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,ol {
+  margin-left: 50px;
+  margin-bottom: 30px
+  ;
+}
+article {
+  margin-bottom: 60px;
 }
 h3 {
   color: rgba(62, 108, 193, 0.601);
@@ -49,12 +88,19 @@ h3 {
   text-transform: uppercase;
   font-style: italic;
   text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 li {
   color: red;
   font-size: 18px;
   font-style: italic;
   line-height: 1.2;
+  margin-bottom: 10px;
+
+}
+li:last-child {
+  margin-bottom: 0;
 }
 /*footer p {
   font-size: 15px;
@@ -95,9 +141,7 @@ footer p {
 .related-lists {
   list-style: none;
 }
-.main-header{
-  background-color: rgba(140, 63, 229, 0.755);
-}
+
 aside{
   background-color: #95b6f1;
   border: 10px solid rgba(221, 64, 32, 0.755);
@@ -124,7 +168,7 @@ article p:first-child
 /* Styling Hyperlinks  */
 a:link
 {
-  color: lightgreen;
+  color: rgb(17, 97, 17);
   text-decoration: none;
 }
 a:hover

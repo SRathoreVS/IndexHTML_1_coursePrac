@@ -28,14 +28,14 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 50px ;
-  height: 80px;
+   height: 80px; 
 }
 
 .post-header {
   margin-bottom: 40px;
 }
 .post-img {
-  width: 800px;
+  width: 100%;
   height: auto;
 }
 aside{
@@ -46,9 +46,13 @@ aside{
   padding: 50px 0;
   width: 500px;
 }
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
-
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -104,6 +108,7 @@ li {
   font-style: italic;
   line-height: 1.2;
   margin-bottom: 10px;
+  /* display: inline; */
 
 }
 li:last-child {
@@ -171,6 +176,17 @@ li:nth-child(3){
 article p:first-child
 {
   color: bisque;
+}
+ nav a:link {
+  
+  /* margin: auto; 
+  display: block;*/
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+} 
+nav a:link:last-child {
+  margin-right: 0;
 }
 /* Styling Hyperlinks  */
 a:link
